@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+*{
+	box-sizing: border-box;
+	/*font-family: Open Sans;*/
+}
+
+:root{
+	font-size: 62.5%;
+}
+h2,h4{
+	text-align: center;
+	font-size: 4em;
+	padding: .5em 0;
+	font-family:Roboto;
+	color: #06ce90;
+}
+h4{
+	font-size: 2em;
+	color:#ffb000;
+}
+.container{
+	font-size: 2em;
+	display: flex;
+	width: 60vw;
+	flex-flow: row wrap;
+	margin: 1em auto;
+	justify-content: flex-start;
+}
+.column{
+	display: flex;
+	flex: 25%;
+	/*background-color: #ddd;*/
+	margin:0.3em;
+	flex-flow: column wrap;
+	justify-content: flex-start;
+	align-items: center;	
+}
+.headingOfCont{
+	align-items: initial;
+	padding-left: 1em;
+	flex:10%;
+}
+.item1{
+margin: .2em 0;
+height:20%;
+padding-top: .3em;
+}
+
+.item2,.item3{
+	height:35%;
+	margin: .1em 0;
+
+}
+.two {
+    width:100%;
+    position: absolute;
+    bottom:0;
+}
+img.two{
+    position: fixed;
+    display: block;
+    float: left;
+    align:bottom;
+    max-height: 30vh;
+}
+
+table {
+width:100%;
+}
+
+@media (max-width:800px){
+	.container{
+		width: 90vw;
+		flex-flow: column wrap;
+	}
+	.headingOfCont,img.two{
+		display: none;
+	}
+	.item1,.item2,.item3{
+		margin: 0.5em 0;
+	}
+}

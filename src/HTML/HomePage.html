@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <link rel="stylesheet" href="../css/navbar.css">
+  <link rel="stylesheet" href="../css/home.css">
+  <meta viewport="width=device-width, initial-scale=1">
+  <script src="../JS/home.js" defer></script>
+</head>
+
+<body>
+  <!-- Unordered List -->
+<nav class="navbar">
+    <ul>
+  <li><a href="#features">Features</a></li>
+  <li><a href="Dashboard.html">Dashboard</a></li>
+  <li><a href="Schedule.html">Schedule</a></li>
+  <li> <a href="Login Page.html">Sign-In</a></li>
+  <li><a href="#contact" id='navContact'>Contact Us</a></li>
+</ul></nav>
+
+
+<div class="main">
+
+<div class="landing" >
+  <h1 align="center">Organise your day with</h1>
+ <h1 align="center" style="color:#f56291">Chores Scheduler</h1>
+  <a href="Login%20Page.html">Sign-up</a>
+<img src="../../media/img/home_design.png" alt="">
+</div>
+<br>
+
+<section class="class2" id="features">
+ <!-- <br style="visibility: hidden;"> -->
+   
+ <img src="../../media/img/home_img2.png" alt="">
+ <h1>Get your day going in a blaze.</h1>
+ 
+</section>
+
+<section class="class3">
+  <h1>Quick <br>and <br>Hasslefree <br> Setup.</h1>
+  <img class="one"src="../../media/img/2.png" alt="">
+  <img class="two" src="../../media/img/4.png" alt="">
+</section>
+
+<section class="class4">
+<marquee behavior="alternate" direction="left"><span class="mar_text">Why managing your tasks is important?</span></marquee>
+<iframe src="https://www.youtube.com/embed/fqR7JP1s-aM?controls=0" frameborder="0"></iframe>
+</section>
+
+<div class="landing" style="padding-top:30px;"><a href="Login%20Page.html">Get started</a></div>
+
+<div class="test_main" id="contact" onmouseover="mouseOver();" onmouseout="mouseOut();">
+      <p>Customer Testimonials</p>
+    </div>
+<div class="testimonils">
+   
+    <div class="customer">
+      <img src="../../media/img/man.png" alt="">
+      <p><span>"</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, similique. Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ipsum dolorem ea magni id harum est ex temporibus tenetur enim!<br><span>"</span>  </p>
+    </div>
+     <div class="customer">
+      <img src="../../media/img/man_2.png" alt="">
+      <p><span>"</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, similique. Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ipsum dolorem ea magni id harum est ex temporibus tenetur enim!<br><span>"</span>  </p>
+    </div>
+     <div class="customer">
+      <img src="../../media/img/man.png" alt="">
+      <p><span>"</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, similique. Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ipsum dolorem ea magni id harum est ex temporibus tenetur enim!<br><span>"</span>  </p>
+    </div>
+</div>
+
+<div class="contact">
+  <p>Get <br> in <br>touch</p>  
+  <div class="contactimg">
+  <img src="../../media/img/contact.png" alt="">
+  </div>
+  <div class="contactform">
+  <form name="contactForm" action="#" method="get" id="contactForm" onsubmit="return contactFormValidate(event);">
+    <div class="row">
+      <div class="col25">
+        <label for="name">Name: </label>
+      </div>
+      <div class="col75">
+        <input id='nameInput' type="text" name="name" onblur="changeBlur(this);"><br>
+                        <small></small>
+      </div>
+    </div>
+    <div class="row">
+    <div class="col25">
+    <label for="email">Email: </label>
+    </div>  
+    <div class="col75">
+    <input type="email" name="email" onblur="changeBlur(this);"><br>
+                    <small></small>
+    </div>  
+    </div>
+      <div class="row"><div class="col25">
+        <label for="feedback">Feedback: </label>
+      </div>
+      <div class="col75">
+    <textarea name="feedback" id="feedback" rows="3" onblur="changeBlur(this);"></textarea>
+      </div>
+    </div>
+    <button type="submit">Submit</button>
+  </form>
+  </div>
+</div>
+
+<div class="linebreak">
+  <img src="../../media/img/line_break.png" alt="">
+  <p>About Us</p>
+  <img style="transform:scaleX(-1);"src="../../media/img/line_break.png" alt="">
+</div>
+
+<div class="about">
+  <div class="person1">
+    <div class="username">
+    <img src="../../media/img/man.png" alt="">
+    <p>Shrenik Shah</p>
+    </div>
+    <div class="userinfo">
+      <p onmousedown="mouseDown(this);" onmouseup='mouseUp(this);'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, alias optio error nemo ipsam, consequuntur facere beatae aliquid nisi minus eius vitae ab, natus sint perspiciatis? Magnam fuga quisquam reprehenderit consequuntur explicabo soluta mollitia harum, magni ullam quae repudiandae reiciendis.</p>
+    </div>
+  </div>
+  <div class="person1 person2">
+    <div class="username">
+    <img src="../../media/img/man_2.png" alt="">
+    <p>Vaibhav Vesmaker</p>
+    </div> 
+  <div class="userinfo">
+      <p onmousedown="mouseDown(this);" onmouseup='mouseUp(this);'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, alias optio error nemo ipsam, consequuntur facere beatae aliquid nisi minus eius vitae ab, natus sint perspiciatis? Magnam fuga quisquam reprehenderit consequuntur explicabo soluta mollitia harum, magni ullam quae repudiandae reiciendis.</p>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
+
+

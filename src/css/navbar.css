@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,400&display=swap');
+
+*{
+	margin:0;
+	padding: 0;
+	box-sizing:border-box;
+}
+br,nav {
+user-select:none;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	height:100vh;
+}
+/*Navigation Bar*/
+nav{
+	position: fixed;
+	width: 100%;
+	overflow: hidden;
+	top: 0;
+}
+.navbar ul{
+	text-align: right;
+	padding-right:200px;
+	background-color: #aa4465;
+	padding-top:10px;
+	padding-bottom: 10px;
+	margin-top:0px;
+}
+.navbar li{
+	overflow: hidden;
+	display: inline;
+	font-size: 20px;
+	color:#ebecef;
+	font-weight: 300;
+	font-style: italic;
+	text-decoration: none;
+	list-style: none;
+	height:37px;
+	/*margin: 0 20px;*/
+	/*border-bottom:1px solid black;*/
+	padding: 10px 20px;
+}
+.navbar li:hover{
+color:#aa4465;
+background-color: #ebecef;
+}
+.navbar a{
+	text-decoration: none;
+	color: inherit;
+}
+.main {
+padding-top:100px;
+/*margin-bottom: 100px;*/
+}
+
+@media screen and (max-width: 600px){
+	.navbar li{
+		display: block;
+		text-align: center;
+
+	}
+	.navbar ul{
+		padding: 0;
+		text-align: center;
+	}
+	.main{
+		padding-top:200px;
+	}
+}
