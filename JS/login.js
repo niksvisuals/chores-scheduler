@@ -86,7 +86,7 @@ function confirmReset(){
     return result;
 }
 
-document.body.addEventListener('load',checkCookies());
+/* document.body.addEventListener('load',checkCookies());
 document.body.addEventListener('load',pageLoaded());
 
 function checkCookies(){
@@ -101,5 +101,5 @@ function checkCookies(){
 
 function pageLoaded(){
     console.log('Page loaded successfully');
-}
+} */
 
