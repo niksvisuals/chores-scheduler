@@ -1,149 +1,225 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Home Page</title>
   <link rel="stylesheet" href="css/navbar.css">
+  <link rel="stylesheet" href="css/features.css">
   <link rel="stylesheet" href="css/home.css">
   <meta viewport="width=device-width, initial-scale=1">
+  <link rel="icon" href="/media/img/favicon.svg" type="image/x-icon">
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NVHFQ6FBW0"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-NVHFQ6FBW0"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-NVHFQ6FBW0');
-</script>
+    gtag('config', 'G-NVHFQ6FBW0');
+  </script>
   <script type="text/javascript" src="JS/home.js" defer></script>
 </head>
 
 <body>
   <!-- Unordered List -->
-<nav class="navbar">
+  <nav class="navbar">
     <ul>
-  <li><a href="#features">Features</a></li>
-  <li><a href="Dashboard.html">Dashboard</a></li>
-  <li><a href="Schedule.html">Schedule</a></li>
-  <li> <a href="Login Page.html">Sign-In</a></li>
-  <li><a href="#contact" id='navContact'>Contact Us</a></li>
-</ul></nav>
+      <li><a href="#features">Features</a></li>
+      <li><a href="Dashboard.html">Dashboard</a></li>
+      <li><a href="Schedule.html">Schedule</a></li>
+      <li> <a href="Login Page.html">Sign-In</a></li>
+      <li><a href="#contact" id='navContact'>Contact Us</a></li>
+    </ul>
+  </nav>
 
 
-<div class="main">
+  <div class="main">
 
-<div class="landing" >
-  <h1 align="center">Organise your day with</h1>
- <h1 align="center" style="color:#f56291">Chores Scheduler</h1>
-  <a href="Login%20Page.html">Sign-up</a>
-<img src="media/img/home_design.png" alt="">
-</div>
-<br>
+    <div class="landing">
+      <h1 align="center" style="font-size:48px; font-weight: bold;">Organise your day with</h1>
+      <h1 align="center" style="color:#f56291; font-weight: bold; font-size: 48px;">Task Scheduler</h1>
+      <p align="center" style="padding-top: 1em; width:50vw; margin: auto; font-weight: lighter;">Organize your tasks,
+        lists and reminders in one easy to use app. Tasks sync seamlessly across all your devices.</p>
+      <a href="Login%20Page.html">Sign-up</a>
+      <img src="media/img/home_design.png" alt="">
+    </div>
+    <br>
 
-<section class="class2" id="features">
- <!-- <br style="visibility: hidden;"> -->
-   
- <img src="media/img/home_img2.png" alt="">
- <h1>Get your day going in a blaze.</h1>
- 
-</section>
+    <section class="class2" id="features">
+      <!-- <br style="visibility: hidden;"> -->
 
-<section class="class3">
-  <h1>Quick <br>and <br>Hasslefree <br> Setup.</h1>
-  <img class="one"src="media/img/2.png" alt="">
-  <img class="two" src="media/img/4.png" alt="">
-</section>
+      <img src="media/img/home_img2.png" alt="">
+      <h1>Visualize your tasklist</h1>
+      <p>Keep on top of priorities by creating a centralized work hub – everything you need is organized in the one
+        place. Pin important to-dos to your dashboard and easily manage tasks with simple Kanban boards – minimize the
+        amount of tasks in progress so you can focus.</p>
+    </section>
 
-<section class="class4">
-<marquee behavior="alternate" direction="left"><span class="mar_text">Why managing your tasks is important?</span></marquee>
-<iframe src="https://www.youtube.com/embed/fqR7JP1s-aM?controls=0" frameborder="0"></iframe>
-</section>
+    <section class="class3">
+      <h1>Quick and <br>Hasslefree Setup.</h1>
+      <p>Set reminders to make sure important things don’t slip away. With powerful one-time, recurring and location
+        based reminders, you can be sure critical things don’t get forgotten.</p>
+      <img class="one" src="media/img/2.png" alt="">
+    </section>
+    <img class="class33 two" src="media/img/4.png" alt="">
+    <section>
+      <div class="row">
+        <!-- Column One -->
+        <div class="column">
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-user"></i>
+            </div>
+            <h3>User Friendly</h3>
+            <p>
+              Built with end user in focus to help manage the tasks easily and conviniently. The sophisticated functions
+              and features enable users to make the most out of their time.
+            </p>
+          </div>
+        </div>
+        <!-- Column Two -->
+        <div class="column">
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3>Super Secure</h3>
+            <p>
+              The data is stored on our own servers and are fully encrypted using secure and industry standards to offer
+              users with hight level of security of their personal data.
+            </p>
+          </div>
+        </div>
+        <!-- Column Three -->
+        <div class="column">
+          <div class="card">
+            <div class="icon">
+              <i class="fa-solid fa-headset"></i>
+            </div>
+            <h3>Quick Support</h3>
+            <p>
+              We are always availabe to take any queries and troubleshoot any difficulties that you might face with our
+              Task Scheduler. Leave us an email and we will get back to you soon or discuss with others in forums.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="class4">
+      <marquee behavior="alternate" direction="left"><span class="mar_text">Delightfully simple and deceptively powerful
+          task management</span>
+      </marquee>
+      <iframe src="https://www.youtube.com/embed/fqR7JP1s-aM?controls=0" frameborder="0"></iframe>
+    </section>
 
-<div class="landing" style="padding-top:30px;"><a href="Login%20Page.html">Get started</a></div>
+    <div class="landing" style="padding-top:30px;"><a href="Login%20Page.html">Get started</a></div>
 
-<div class="test_main" id="contact" onmouseover="mouseOver();" onmouseout="mouseOut();">
+    <div class="test_main" id="contact" onmouseover="mouseOver();" onmouseout="mouseOut();">
       <p>Customer Testimonials</p>
     </div>
-<div class="testimonils">
-   
-    <div class="customer">
-      <img src="media/img/man.png" alt="">
-      <p><span>"</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, similique. Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ipsum dolorem ea magni id harum est ex temporibus tenetur enim!<br><span>"</span>  </p>
-    </div>
-     <div class="customer">
-      <img src="media/img/man_2.png" alt="">
-      <p><span>"</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, similique. Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ipsum dolorem ea magni id harum est ex temporibus tenetur enim!<br><span>"</span>  </p>
-    </div>
-     <div class="customer">
-      <img src="media/img/man.png" alt="">
-      <p><span>"</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, similique. Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Ipsam ipsum dolorem ea magni id harum est ex temporibus tenetur enim!<br><span>"</span>  </p>
-    </div>
-</div>
+    <div class="testimonils">
 
-<div class="contact">
-  <p>Get <br> in <br>touch</p>  
-  <div class="contactimg">
-  <img src="media/img/contact.png" alt="">
-  </div>
-  <div class="contactform">
-  <form name="contactForm" action="#" method="get" id="contactForm" onsubmit="return contactFormValidate(event);">
-    <div class="row">
-      <div class="col25">
-        <label for="name">Name: </label>
+      <div class="customer">
+        <img src="media/img/man.png" alt="">
+        <p><span>"</span>Fantastic app for planning your day and future tasks. Can connect with Google calendar/account.
+          Has reminder and overlay for easier use for each day. Works perfectly without buying anything
+          in-app. Fantastic app for planning your day and future tasks. Can connect with Google calendar/account. Has
+          reminder and overlay for easier use for each day. Works perfectly without buying anything
+          in-app.<br><span>"</span> </p>
       </div>
-      <div class="col75">
-        <input id='nameInput' type="text" name="name" onblur="changeBlur(this);"><br>
-                        <small></small>
+      <div class="customer">
+        <img src="media/img/man_2.png" alt="">
+        <p><span>"</span>This app is the best thing in my life for organising the million and one things I need to
+          do. I love having my to do lists in one place and syncing events with my alerts and calendar. I just wish the
+          events came up on my to do list on that day too as sometimes I forget to look at my events tab. It would also
+          be great if I could use Siri to add things to my to do list. I think you can but I haven’t figured it
+          out.<br><span>"</span> </p>
       </div>
-    </div>
-    <div class="row">
-    <div class="col25">
-    <label for="email">Email: </label>
-    </div>  
-    <div class="col75">
-    <input type="email" name="email" onblur="changeBlur(this);"><br>
-                    <small></small>
-    </div>  
-    </div>
-      <div class="row"><div class="col25">
-        <label for="feedback">Feedback: </label>
-      </div>
-      <div class="col75">
-    <textarea name="feedback" id="feedback" rows="3" onblur="changeBlur(this);"></textarea>
+      <div class="customer">
+        <img src="media/img/man.png" alt="">
+        <p><span>"</span>I've tried a bunch of to do list apps, but none of them had the feature that Any.do does - the
+          integration with a calendar (recently added for iPhone and coming soon for iPad). I want to see my day with
+          both schedule and tasks. You can go this with Google Calendar on a laptop, but my primary devices are phone
+          and tablet. This app is simple, has a nice interface, and the all important calendar integration. Highly
+          recommend.<br><span>"</span> </p>
       </div>
     </div>
-    <button type="submit">Submit</button>
-  </form>
-  </div>
-</div>
 
-<div class="linebreak">
-  <img src="media/img/line_break.png" alt="">
-  <p>About Us</p>
-  <img style="transform:scaleX(-1);"src="media/img/line_break.png" alt="">
-</div>
+    <div class="contact">
+      <p>Get in touch</p>
+      <div class="contactimg">
+        <img src="media/img/contact.png" style="width: 100px; padding:0.5em 0;" alt="">
+      </div>
+      <div class="contactform">
+        <form name="contactForm" action="#" method="get" id="contactForm" onsubmit="return contactFormValidate(event);">
+          <div class="row">
+            <div class="col25">
+              <label for="name">Name: </label>
+            </div>
+            <div class="col75">
+              <input id='nameInput' type="text" name="name" onblur="changeBlur(this);"><br>
+              <small></small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col25">
+              <label for="email">Email: </label>
+            </div>
+            <div class="col75">
+              <input type="email" name="email" onblur="changeBlur(this);"><br>
+              <small></small>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col25">
+              <label for="feedback">Feedback: </label>
+            </div>
+            <div class="col75">
+              <textarea name="feedback" id="feedback" rows="3" onblur="changeBlur(this);"></textarea>
+            </div>
+          </div>
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
 
-<div class="about">
-  <div class="person1">
-    <div class="username">
-    <img src="media/img/man.png" alt="">
-    <p>Shrenik Shah</p>
+    <div class="linebreak">
+      <img src="media/img/line_break.png" alt="">
+      <p>About Us</p>
+      <img style="transform:scaleX(-1);" src="media/img/line_break.png" alt="">
     </div>
-    <div class="userinfo">
-      <p onmousedown="mouseDown(this);" onmouseup='mouseUp(this);'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, alias optio error nemo ipsam, consequuntur facere beatae aliquid nisi minus eius vitae ab, natus sint perspiciatis? Magnam fuga quisquam reprehenderit consequuntur explicabo soluta mollitia harum, magni ullam quae repudiandae reiciendis.</p>
+
+    <div class="about">
+      <div class="person1">
+        <div class="username">
+          <img src="media/img/man.png" alt="">
+          <p>Shrenik Shah</p>
+        </div>
+        <div class="userinfo">
+          <p onmousedown="mouseDown(this);" onmouseup='mouseUp(this);'>
+            He is an passionate developer, with interests in emerging technologies like blockchain, javascript
+            frameworks, and everything related to web. He loves to build services and interfaces that people will love
+            to use and ease their day to boring tasks and automating them using simple yet effective technology. With
+            that in mind, he created this webapp to help manage users their daily tasks and get it completed on time.
+          </p>
+        </div>
+      </div>
+      <div class="person1 person2">
+        <div class="username">
+          <img src="media/img/man_2.png" alt="">
+          <p>Vaibhav Vesmaker</p>
+        </div>
+        <div class="userinfo">
+          <p onmousedown="mouseDown(this);" onmouseup='mouseUp(this);'>
+            He is great frontend desginer and also a good dancer. He spends most of his time designing screens that are
+            user friendly and eay to understand. In the free time he grooves to beats and sometimes sing as well. The
+            main objective to create task manager was to help people manage their daily routine while allowing them to
+            keep a track of all the things they have to do at hand.
+          </p>
+        </div>
+      </div>
     </div>
   </div>
-  <div class="person1 person2">
-    <div class="username">
-    <img src="media/img/man_2.png" alt="">
-    <p>Vaibhav Vesmaker</p>
-    </div> 
-  <div class="userinfo">
-      <p onmousedown="mouseDown(this);" onmouseup='mouseUp(this);'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, Lorem, ipsum dolor sit amet consectetur adipisicing elit. Earum, alias optio error nemo ipsam, consequuntur facere beatae aliquid nisi minus eius vitae ab, natus sint perspiciatis? Magnam fuga quisquam reprehenderit consequuntur explicabo soluta mollitia harum, magni ullam quae repudiandae reiciendis.</p>
-    </div>
-  </div>
-</div>
-</div>
 </body>
+
 </html>
-
-
