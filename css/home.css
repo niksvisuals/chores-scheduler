@@ -74,7 +74,7 @@ h1,h2 {
     padding:0 0 0 10%;
 }
 
-.class2 h1 {
+.class2 h2 {
     /* display: block; */
     grid-column-start: 2;
     grid-row: 1 / 2;
@@ -98,15 +98,15 @@ h1,h2 {
 
 }
 
-.class2 h1::selection {
+.class2 h2::selection {
     color: #ffb000;
 }
 
-.class3 h1::selection {
+.class3 h2::selection {
     color: #ff3180;
 }
 
-.class3 h1 {
+.class3 h2 {
     display: block;
     width: auto;
     text-align: start;
@@ -150,7 +150,7 @@ h1,h2 {
 
 }
 
-.class3 h1, br {
+.class3 h2, br {
     /* display: inline-block; */
     grid-column: 1 / 2;
     text-align: justify;
